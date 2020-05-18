@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FlyAirLine.Console": {
+      "commandName": "Project",
+      "commandLineArgs": "input-file.txt"
+    }
+  }
+}
