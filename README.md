@@ -7,7 +7,7 @@ A aplicação foi contruída na plataforma **.Net Core 3.0**
 ```shell
 C:\[diretório dos fontes]\FlyAirLine\FlyAirLine.Console>dotnet build 
 ```
-2) Executar o console usando o comando *"dotnet run"* passando como o parâmetro o *"caminho+arquivo"*
+2) Executar o console, usando o comando *"dotnet run"* passando como o parâmetro o *[caminho]\[arquivo]*
 ```
 C:\[diretório dos fontes]\FlyAirLine\FlyAirLine.Console>dotnet run input-file.txt 
 ```
