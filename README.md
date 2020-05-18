@@ -61,9 +61,13 @@ FlyAirLine
 │   └───Utils.cs
 │
 └───FlyAirLine.Infra.Repository
-    ├───FlyAirLine.Infra.Repository.csproj
-    └───Repository
-        └───RouteRepository.cs
+│   ├───FlyAirLine.Infra.Repository.csproj
+│   └───Repository
+│       └───RouteRepository.cs
+│
+└───FlyAirLine.UnitTests
+    ├───FlyAirLine.UnitTests.csproj
+    └───RoutesAppServiceUnitTests.cs        
 ```
 ## Estrutura do Projeto no Visual Studio ##
 ```
@@ -75,11 +79,12 @@ Solution
 ├─── 3.0-Domain
 │      ├─── Entities
 │      └─── Interfaces
-└─── 4.0-Infrastructure
-        ├─── 4.1-Data
-        │       └─── Repository
-        └─── 4.2-CrossCutting
-                └─── Common
+├─── 4.0-Infrastructure
+│       ├─── 4.1-Data
+│       │       └─── Repository
+│       └─── 4.2-CrossCutting
+│               └─── Common
+└─── UnitTests
 ```
 
 ## Decisões de design adotadas para a solução ##
